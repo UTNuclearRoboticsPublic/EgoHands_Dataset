@@ -41,33 +41,12 @@ The following libraries are required for this project. Steps to get set up are b
 
 <br>
 
-**Install Anaconda and Creating a New Environment**
+**Setting Up Environment**
 <br>
-[Install Anaconda](https://www.anaconda.com/) to manage and create a python environment to run this project. 
 
-Next, open up the anaconda prompt and enter the following,
-```
-conda create -n EgoHandsDataset python=3.9.12
-````
-```
-conda activate EgoHandsDataset
-```
+`conda env create -f config/configurations.yml`
 
 <br> 
-
-**Installing SciPy, NumPy, Pandas, OpenCV, Matplotlib, Pathlib, and all Dependencies**
-<br>
-To install these packages, enter the following in the Anaconda prompt, 
-```
-conda install pip
-```
-```
-pip install opencv-python
-```
-```
-conda install -c conda-forge scipy numpy pandas matplotlib pathlib albumentations tqdm
-````
-<br>
 
 **Installing PyTorch**
 <br>
